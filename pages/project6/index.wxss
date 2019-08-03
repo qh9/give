@@ -1,0 +1,16 @@
+.wrap{
+  margin: 10px 0;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.header{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+}
+.text{
+  width: 20px;
+  height:20px;
+  display: block;
+  text-align: center;
+}

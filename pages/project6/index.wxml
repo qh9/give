@@ -1,0 +1,14 @@
+<view wx:for="{{list}}" wx:key="{{index}}" class='wrap'>
+  <view class='header'>
+    <text>{{item.name}}</text>
+    <text>{{item.step}}</text>
+  </view>
+  <view>
+    <progress percent="{{item.proportion}}" color="pink"  border-radius="15" stroke-width="25"/>
+  </view>
+  
+  <view >
+    <text class='text'>{{item.praise}}</text>
+    <icon type="download" size="20" bindtap='praise' data-child="{{index}}"></icon>
+  </view>
+</view>

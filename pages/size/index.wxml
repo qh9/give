@@ -1,0 +1,10 @@
+<view class='text' style="font-size:{{fontSize}}px">
+  我爱彧儿
+</view>
+<view>
+  <slider bindchanging="sliderchange" min="1" max="60" show-value  value/>
+</view>
+<view class='change'>
+  <button bindtap='big'>放大</button>
+  <button bindtap='small'>缩小</button>
+</view>

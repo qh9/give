@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/project6/index",
+    "pages/size/index",
+   
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar":{
+    "position":"bottom",
+    "borderStyle":"black",
+    "list":[{
+        "pagePath": "pages/project6/index",
+        "text": "脚步",
+        "iconPath": "img/icon_seo.png",
+        "selectedIconPath": "img/icon_seo_HL.png"
+      },{
+        "pagePath": "pages/size/index",
+        "text": "文字",
+        "iconPath": "img/icon_speed.png",
+        "selectedIconPath": "img/icon_speed_HL.png"
+      }]
+  }
+}
